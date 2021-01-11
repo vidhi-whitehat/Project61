@@ -1,0 +1,87 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+  text-align: center;
+  background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+  background-repeat:repeat;
+}
+
+img
+{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+    
+    height: 400px;
+    width: 400;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+h1
+{
+  text-shadow: 2px 2px #F8BBDO;
+  font-size:20px;
+  font-family: 'Dancing Script', cursive;
+}
+
+h3
+{
+  text-shadow: 2px 2px #F8BBDO;
+  font-family: 'Courgette', cursive;
+}
+
+.line 
+{
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu
+{
+    list-style: none;
+    font-family: cursive;
+    float: left;
+    cursor: pointer;
+    color: black;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.link
+{
+    display: inline;
+    float:left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: cursive;
+    font-size: 20px;
+    color: red;
+}
+
+.link:hover {
+    background-color:azure;
+}
+
+#myname
+{
+  color: #6A1B9A;
+  font-size:20px;
+  font-family: 'Courgette', cursive;
+}
+
+#name
+{
+  color: #6A1B9A;
+  font-size:18px;
+  font-family: 'Courgette', cursive;
+}
